@@ -74,24 +74,21 @@
 }
 
 .container .heading {
-    width: 50%;
+    width: 100%;       /* use full width */
+    text-align: center; /* center the text */
     padding-bottom: 40px;
-    text-align: center; /* ensures text is centered */
 }
 
-/* Responsive heading */
-@media only screen and (max-width: 769px){
-    .container .heading {
-        width: 100%;
-        padding: 20px;
-    }
+
+@media only screen and (max-width: 769px) {
     .container .heading h3 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* smaller heading */
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
     .container .heading h3 {
-        font-size: 1.2em;
+        font-size: 1.2em; /* even smaller for mobile */
     }
 }
+

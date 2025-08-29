@@ -72,3 +72,26 @@
 }
     
 }
+
+.container .heading {
+    width: 50%;
+    padding-bottom: 40px;
+    text-align: center; /* ensures text is centered */
+}
+
+/* Responsive heading */
+@media only screen and (max-width: 769px){
+    .container .heading {
+        width: 100%;
+        padding: 20px;
+    }
+    .container .heading h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .container .heading h3 {
+        font-size: 1.2em;
+    }
+}
